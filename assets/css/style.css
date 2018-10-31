@@ -209,15 +209,15 @@ h3,
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -229,7 +229,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
@@ -238,140 +238,126 @@ input[type=submit] {
   border: 0 none;
 }
 /* The beginning of the rules for width of 980 px
-*/@media screen and (max-width: 980px) {
-
-
-.main-section {
-  margin-top: 105px;
-  max-width: 53.66%;
-  margin-right: 3%;
-  margin-left: 10%;
-  margin-bottom: 15px;
-
- }
-
- #main-container {
-  padding-top: 15px;
- }
-.sidebar {
-  float: right;
-  max-width: 21.33%;
-  margin-right: 10%;
-  margin-left: 2%;
-  margin-bottom: 25px;
-  margin-top: 105px;
-  }
-.social {
-  width:30%;
-  height:30%;
-
-}
-.work {
-  width:90%;
-  margin-left:25px;
-
-}
-
-
-/*The beginning of the rules for 768px
-*/@media screen and (max-width: 768px) {
-
-.main-section {
-  margin-top: 105px;
-  max-width: 92%;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-bottom: 15px;
-
- }
-
- #main-container {
-  padding-top: 15px;
- }
-.sidebar {
-  clear: left;
-  float:left;
-  max-width: 92%;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-bottom: 25px;
-  margin-top: 10px;
-}
-.social {
-  width:62px;
-  height:62px;
-
-}
-.work {
-  width:40%;
-  margin-left:25px;
-
-} /*end of the 768px stuff
 */
-
-}
-/* The following rules will apply when the when the browser's width is between 0px - 640 px*/
-
-@media screen and (max-width: 640px) {
-  #masthead {
-    width:100vw
-    padding:0px;
-    margin:auto;
-    position: static;
-  }
-  #logo {
-      width: 100%;
-
-  }
-  nav {
-    clear: left;
-    float: left;
-    width: 100%;
-  }
-  nav a {
-  text-align: center;
-  width:32%;
-  padding-left: 0px;
-  margin-left: 0px;
-  }
- .auth-image {
-  width:100%;
-  padding-bottom:  
-}
-
-.main-section {
-    clear: left;
-    max-width: 92%;
-    margin-right: 4%;
-    margin-left: 4%;
+@media screen and (max-width: 980px) {
+  .main-section {
+    margin-top: 105px;
+    max-width: 53.66%;
+    margin-right: 3%;
+    margin-left: 10%;
     margin-bottom: 15px;
-    margin-top: 15px;
+  }
 
- }
+  #main-container {
+    padding-top: 15px;
+  }
+  .sidebar {
+    float: right;
+    max-width: 21.33%;
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-bottom: 25px;
+    margin-top: 105px;
+  }
+  .social {
+    width: 30%;
+    height: 30%;
+  }
+  .work {
+    width: 90%;
+    margin-left: 25px;
+  }
 
- #main-container {
-  padding-top: 15px;
- }
-.sidebar {
-  clear: left;
-  float:left;
-  max-width: 92%;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-bottom: 25px;
-  margin-top: 10px;
-}
-.social {
-  width:62px;
-  height:62px;
-
-}
-.work {
-    width: 100%;
-    margin-left: 0px;
-    max-width: 100%;
-
-} /*end of the 640px stuff
+  /*The beginning of the rules for 768px
 */
+  @media screen and (max-width: 768px) {
+    .main-section {
+      margin-top: 105px;
+      max-width: 92%;
+      margin-right: 4%;
+      margin-left: 4%;
+      margin-bottom: 15px;
+    }
 
+    #main-container {
+      padding-top: 15px;
+    }
+    .sidebar {
+      clear: left;
+      float: left;
+      max-width: 92%;
+      margin-right: 4%;
+      margin-left: 4%;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+    .social {
+      width: 62px;
+      height: 62px;
+    }
+    .work {
+      width: 40%;
+      margin-left: 25px;
+    } /*end of the 768px stuff
+*/
+  }
+  /* The following rules will apply when the when the browser's width is between 0px - 640 px*/
+
+  @media screen and (max-width: 640px) {
+    #masthead {
+      width: 100vw;
+      padding: 0px;
+      margin: auto;
+      position: static;
+    }
+    #logo {
+      width: 100%;
+    }
+    nav {
+      clear: left;
+      float: left;
+      width: 100%;
+    }
+    nav a {
+      text-align: center;
+      width: 32%;
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+    .auth-image {
+      width: 100%;
+    }
+
+    .main-section {
+      clear: left;
+      max-width: 92%;
+      margin-right: 4%;
+      margin-left: 4%;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+
+    #main-container {
+      padding-top: 15px;
+    }
+    .sidebar {
+      clear: left;
+      float: left;
+      max-width: 92%;
+      margin-right: 4%;
+      margin-left: 4%;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+    .social {
+      width: 62px;
+      height: 62px;
+    }
+    .work {
+      width: 100%;
+      margin-left: 0px;
+      max-width: 100%;
+    } /*end of the 640px stuff
+*/
+  }
 }
